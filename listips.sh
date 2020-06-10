@@ -3,7 +3,7 @@
 function help {
 	echo "Convert IP ranges to a list of IPs"
 	echo ""
-	echo "Usage: listips [-h] [-e IP range] [-ef filename] [IP range | -f filename]"
+	echo "Usage: listips.sh [-h] [-e IP range] [-ef filename] [IP range | -f filename]"
 	echo ""
 	echo "-e/--excl:  Specify an IP range to exclude"
 	echo "-ef/--exfl: Specify a file containing IP ranges to exclude"
