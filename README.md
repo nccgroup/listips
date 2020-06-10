@@ -1,8 +1,12 @@
 # listips
 A script that uses nmap to expand IP ranges into a list of IPs
 
-Usage: listips [-h] [-f filename] [IP range]
+Usage: listips [-h] [-e IP range] [-ef filename] [IP range | -f filename]
 
--f/--file: Specify a file containing IP ranges to convert
+-e/--excl:  Specify an IP range to exclude
 
--h/--help: Show this help info
+-ef/--exfl: Specify a file containing IP ranges to exclude
+
+-f/--file:  Specify a file containing IP ranges to convert
+
+-h/--help:  Show this help info
