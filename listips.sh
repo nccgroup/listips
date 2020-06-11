@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Released as open source by NCC Group Plc - http://www.nccgroup.com/
+# Developed by James Conlan, James.Conlan@nccgroup.com
+# https://github.com/nccgroup/listips
+# You should have received a copy of the GNU General Public License along with 
+# listips. If not, see https://www.gnu.org/licenses.
+
 function help {
 	echo "Convert IP ranges to a list of IPs"
 	echo ""
